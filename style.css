@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: rgb(151, 147, 147);
+}
+.psd_design{
+    display: flex;
+    width: 954px;
+    margin-left: 200px;
+    margin-top: 10px;
+    /* border: 1px solid rgb(49, 42, 42); */
+    background-color: #fff;
+}
+
+
+
+/* ----------------left start-------- */
+
+.left{
+    width: 330px;
+    border-right:2px solid #DADADA;
+}
+
+/* ----top part */
+.psd{
+    width: 330px;
+    /* height: ; */
+}
+
+/* -------- */
+.top_icon{
+    background-color: #01A0E1;
+    display: flex;
+}
+.top_icon .icon{
+    width: 77px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.top_icon .top_pf{
+    margin-top: 15px;
+    margin-left: 160px;
+    height: 50px;
+    cursor: pointer;
+}
+/* ----------- */
+
+/* ----------- */
+.tanim1{
+    position: relative;
+    overflow: hidden;
+    background-color: #01A0E1;
+}
+.tanim2{
+    height: 55px;
+}
+.wave{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 200%;
+    background-position: 0 bottom;
+    background-repeat: repeat-x;
+    transform-origin: center bottom;
+}
+    
+@keyframes waves{
+    0%{
+        transform: translateX(0) translateY(0) scaleY(1);
+    }
+    0%{
+        transform: translateX(-25%) translateY(0) scaleY(.5);
+    }
+    0%{
+        transform: translateX(-50%) translateY(0) scaleY(1);
+    }
+}
+/* -----top part end------ */
+
+
+/* --------middle part start------ */
+.icon_part{
+  display: flex;
+  margin-top: 27px;
+  /* margin-left: 25px; */
+}
+.icon{
+    /* padding-left: 10px; */
+}
+.icon img{
+    height: 24px;
+    width: 24px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.search_icon{
+    margin-left: 27px;
+}
+.search_icon input{
+    position: relative;
+    height: 23px;
+    width: 164px;
+    background-color:  #01A0E1;
+    border: none;
+}
+.search_input::placeholder{
+    color: #fff;
+    padding-left: 30px;
+}
+.search_icon img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    margin-left: -155px;
+    margin-top: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/* --------middle paart end------- */
+
+
+/* ---------bottom part start ------*/
+.bottom{
+    margin-top: 45px;
+    display: flex;
+}
+.color_line{
+    height: 70px;
+    width: 0px;
+    background-color: #01A0E1;
+    border: 2px solid #01A0E1;
+    margin-top: 57px;
+}
+.friend_list{
+    margin-left: 20px;
+}
+.chat_list{
+    display: flex;
+}
+.chat_name{
+    display: flex;
+    font-family: sans-serif;
+    height: 70px;
+    width: 255px;
+}
+.chat_name img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 4px solid #01A0E1;
+    cursor: pointer;
+}
+.name{
+    margin-left: 15px;
+    margin-top: -7px;
+}
+.name h4{
+    font-size: 13px;
+    cursor: pointer;
+}
+.name p{
+    font-size: 11px;
+    margin-top: -15px;
+}
+.chat_date p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+/* ---------bottom part end-------- */
+
+
+/* ----------------------- left end --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------right start-------------------- */
+.right{
+    width: 622px;
+}
+
+/* right top */
+.right_top{
+    display: flex;
+    width: 780px;
+    height: 119px;
+    /* background-color: gray; */
+}
+
+/* self info */
+.self_info{
+    display: flex;
+    margin-left: 26%;
+    transform: translate(-50% 50%);
+}
+.self_info img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.self_name{
+  margin-left: 6px;
+  font-family: sans-serif;
+  margin-top: 12px;
+}
+.self_name h4{
+    font-size: 13px;
+    margin-top: 28px;
+}
+.self_name p{
+    font-size: 11px;
+    color: #34BC1D;
+    margin-top: -20px;
+}
+/* self info end */
+
+
+
+/* self menu */
+.self_menu{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.menu_info{
+    margin-top: 23px;
+}
+.menu{
+    display: flex;
+    margin-top: -18px;
+    cursor: pointer;
+}
+.menu img{
+    height: 13px;
+    width: 13px;
+    margin-top: 20px;
+}
+.menu_p p{
+   font-size: 11px;
+   font-family: sans-serif;
+   margin-left: 5px;
+   margin-top: 20px;
+}
+hr{
+    border: 1px solid rgb(223, 217, 217);
+    margin-top: -6px;
+}
+.menu_text_color{
+    color: #E00342;
+}
+.toggle_menu{
+   margin-top: 12px;
+   cursor: pointer;
+}
+.toggle{
+    background: red;
+    border: 2px solid #1E1E1E;
+    margin-top: 3px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+/* self menu end */
+
+/* right top end */
+
+
+/* middle text start */
+.text{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    margin-top: 37px;
+}
+.friend{
+    box-shadow: -7px -7px 20px 0 rgb(255, 255, 255,0.7),7px 7px 20px 0 rgb(0, 0, 0,0.1);
+    width: 310px;
+    font-family: sans-serif;
+    margin-left: 26px;
+    border-radius: 13px 13px 13px 0px;
+    padding: 7px;
+    margin-top: 20px;
+    padding-left: 20px;
+    background-color: #fff;
+}
+samp{
+    font-size: 10px;
+    
+}
+.time{
+  
+}
+.friend p{
+    font-size: 12px;
+}
+.self{
+    background: #01A0E1;
+    width: 310px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 13px 0px 13px 13px;
+    margin-left: 250px;
+    margin-top: 20px;
+    padding: 7px;
+    padding-left: 20px;
+}
+.self p{
+    font-size: 12px;
+}
+/* middle text end */
+
+
+/* bottom start */
+.send{
+    margin-top: 40px;
+    /* margin-left: 25px; */
+    display: flex;
+    margin-bottom: 0px;
+    height: 55px;
+    background-color:#E3E3E3;
+   
+}
+.send_icon{
+    display: flex;
+    margin-left: 15px;
+   
+}
+.send_icon img{
+   height: 25px;
+   width: 25px;
+   margin-left: 10px;
+   margin-top: 15px;
+   cursor: pointer;
+}
+.msg{
+    margin-left: 10px;
+}
+.msg input{
+    height: 51px;
+    width: 518px;
+    position: relative;
+    background: #E3E3E3;
+    margin-left: 5px;
+    border: none;
+}
+.text_msg::placeholder{
+    padding-left: 25px;
+}
+.msg img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin-left: -65px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* botton end */
+/* --------------------------right end here----------------- */
